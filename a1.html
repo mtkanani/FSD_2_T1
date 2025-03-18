@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var k = {
+            name: 'Test', //str
+            age: 20, //num
+            subject: { 'fsd-2': 'NAS', 'fcsp': 'VHA' }, //obj
+            marks: [25, 22], //array
+            present: true, //boolean
+            exam: 'null' //str
+        }
+        // console.log(k)
+        // console.log(k.name)
+        // console.log(k['name'])
+        // console.log(k.age)
+        // console.log(k.subject.fcsp)
+        // console.log(k.marks[1])
+        // console.log(k.present)
+        // console.log(k.exam)
+        let jString = JSON.stringify(k);
+        console.log(jString)
+        console.log(jString.name)
+        var a=JSON.stringify({'t1':20,'t2':25});
+        let jobj=JSON.parse(jString)
+        console.log(jobj.age);
+        console.log(jobj)
+        let b=JSON.parse('{"t3":20,"t4":18}')
+        //console.log(jString.marks[0]);
+        console.log(jobj.marks[0]);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
