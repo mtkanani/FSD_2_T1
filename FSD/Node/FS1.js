@@ -1,0 +1,10 @@
+var fs=require("fs")
+//fs.mkdirSync("node")
+// fs.writeFileSync("node/rw.txt","Hello")
+//fs.appendFileSync("node/rw.txt","\n Good Afternoon")
+// data = fs.readFileSync("node/rw.txt","UTF-8")
+// console.log(data)
+// console.log(data.toString())//alternative  of  UTF-8
+//fs.renameSync("node/rw.txt","node/FS1.txt")
+// fs.writeFileSync("node/FS1.txt","OYeah!")
+//fs.unlinkSync("node/FS1.txt")

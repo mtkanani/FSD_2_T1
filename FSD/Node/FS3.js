@@ -1,0 +1,5 @@
+var fs=require("fs")
+//fs.writeFileSync("node/sorce.txt","HII")
+//fs.writeFileSync("node/destination.txt","Hello")
+dtat=fs.readFilesync("node/sorce.txt")
+fs.appendFileSync("node/destination.txt",data)

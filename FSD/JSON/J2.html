@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a={
+            "Name":"Nitya",
+            "Age":20 ,
+            "Subjects":{"FSD":"NAS","PY-2":"VHA"} ,
+            "Marks":[25,30] ,
+            "present":"true" ,
+            "exam":"null"
+        }
+        // console.log(a)
+        // console.log(a.Name)
+        // console.log(a['Age'])
+        // console.log(a.Subjects.FSD)
+        // console.log(a.Marks[1])
+        // console.log(a.present)
+        // console.log(a.exam)
+
+        let jString = JSON .stringify(a)
+        console.log(jString)
+        console.log(jString.Name)
+
+        let jObj =JSON.parse(jString)
+        console.log(jObj.Age)
+        console.log(jObj) 
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

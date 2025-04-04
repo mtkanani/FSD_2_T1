@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="test">Hello</p>
+    <button onclick="fun1()">Increase</button>
+    <button onclick="fun2()">Decrease</button>
+    <script>
+        var font=16
+        function fun(font) {
+            document.getElementById('test').style.fontSize=font+"px"
+        }
+        function fun1() {
+            setInterval(function()  {
+                if (font<=200) {
+                    fun(font++)
+                }
+            }, 100);
+        }
+
+        var font=16
+        function fun(font) {
+            document.getElementById('test').style.fontSize=font+"px"
+        }
+        function fun2() {
+            setInterval(function()  {
+                if (font<=20) {
+                    fun(font--)
+                }
+            },100);
+        }
+    </script>
+</body>
+</html>
